@@ -1,0 +1,163 @@
+[
+    {
+        "id": "1",
+        "img": "good1.jpg",
+        "name": "米家行车记录仪",
+        "present": "晚上也可以拍清楚车牌",
+        "cost": "349",
+        "way": "现货/3个工作日",
+        "banner": [
+            "airbanner1.jpg",
+            "airbanner2.jpg",
+            "airbanner3.jpg"
+        ],
+        "param": {
+            "norms": "100g",
+            "region": "深圳",
+            "type": "行车记录仪",
+            "color":"黑色"
+        },
+        "pack":{
+        	"nomail":"青海,西藏,海南,云南,偏远地区不包邮",
+        	"mail":"包邮"
+        }
+    },
+    {
+        "id": "2",
+        "img": "good2.jpg",
+        "name": "小米笔记本Air 13.3",
+        "present": "全金属轻薄笔记本",
+        "cost": "5999",
+        "way": "现货/3个工作日",
+        "banner": [
+            "airbanner1.jpg",
+            "airbanner2.jpg",
+            "airbanner3.jpg"
+        ],
+        "param": {
+            "norms": "600g",
+            "region": "上海",
+            "type": "小米air笔记本",
+            "color":"白色"
+        },
+        "pack":{
+        	"nomail":"青海,西藏,海南,云南,偏远地区不包邮",
+        	"mail":"包邮"
+        }
+    },
+    {
+        "id": "3",
+        "img": "good3.jpg",
+        "name": "米家智能摄像机",
+        "present": "随时看护家的温暖安全随时看护家的温暖安全",
+        "cost": "199",
+        "way": "现货/3个工作日",
+        "banner": [
+            "airbanner1.jpg",
+            "airbanner2.jpg",
+            "airbanner3.jpg"
+        ],
+        "param": {
+            "norms": "200g",
+            "region": "合肥",
+            "type": "小米智能摄像机啊",
+            "color":"黑色"
+        },
+        "pack":{
+        	"nomail":"青海,西藏,海南,云南,偏远地区不包邮",
+        	"mail":"包邮"
+        }
+    },
+    {
+        "id": "4",
+        "img": "good4.jpg",
+        "name": "智能LED吸顶灯",
+        "present": "场景联动,好光好自然",
+        "cost": "379",
+        "way": "现货/3个工作日",
+        "banner": [
+            "airbanner1.jpg",
+            "airbanner2.jpg",
+            "airbanner3.jpg"
+        ],
+        "param": {
+            "norms": "300g",
+            "region": "南京",
+            "type": "小米智能LED吸顶灯",
+            "color":"白色"
+        },
+        "pack":{
+        	"nomail":"青海,西藏,海南,云南,偏远地区不包邮",
+        	"mail":"包邮"
+        }
+    },
+    {
+        "id": "5",
+        "img": "good5.jpg",
+        "name": "小米路由器Pro",
+        "present": "全新一代智能家庭中心",
+        "cost": "499",
+        "way": "现货/3个工作日",
+        "banner": [
+            "airbanner1.jpg",
+            "airbanner2.jpg",
+            "airbanner3.jpg"
+        ],
+        "param": {
+            "norms": "250g",
+            "region": "上海",
+            "type": "小米路由器",
+            "color":"白色"
+        },
+        "pack":{
+        	"nomail":"青海,西藏,海南,云南,偏远地区不包邮",
+        	"mail":"包邮"
+        }
+    },
+    {
+        "id": "6",
+        "img": "good6.jpg",
+        "name": "车载空气净化器",
+        "present": "高效净化车里空气焕然一新",
+        "cost": "449",
+        "way": "现货/3个工作日",
+        "banner": [
+            "airbanner1.jpg",
+            "airbanner2.jpg",
+            "airbanner3.jpg"
+        ],
+        "param": {
+            "norms": "600g",
+            "region": "上海",
+            "type": "小米车载进化器",
+            "color":"白色"
+        },
+        "pack":{
+        	"nomail":"青海,西藏,海南,云南,偏远地区不包邮",
+        	"mail":"包邮"
+        }
+    },
+    {
+        "id": "6",
+        "img": "good6.jpg",
+        "name": "车载空气净化器",
+        "present": "高效净化车里空气焕然一新",
+        "cost": "449",
+        "way": "现货/3个工作日",
+        "banner": [
+            "airbanner1.jpg",
+            "airbanner2.jpg",
+            "airbanner3.jpg"
+        ],
+        "param": {
+            "norms": "400g",
+            "region": "上海",
+            "type": "小米车载净化器",
+            "color":"白色"
+        },
+        "pack":{
+        	"nomail":"青海,西藏,海南,云南,偏远地区不包邮",
+        	"mail":"包邮"
+        }
+    }
+]

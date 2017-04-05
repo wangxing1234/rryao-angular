@@ -1,0 +1,24 @@
+angular.module('app')
+.config(['$routeProvider',function($routeProvider){
+	$routeProvider
+		.when('/',{
+			templateUrl:'app/view/good-list.html',
+			controller:'goodlistCtrl'
+		})
+		.when('/classify',{
+			templateUrl:'app/view/classify.html',
+			controller:'classifyCtrl'
+		})
+		.when('/details/:goodId',{
+			templateUrl:'app/view/details.html',
+			controller:'detailsCtrl'
+		})
+		.when('/mine',{
+			templateUrl:'app/view/mine.html',
+			controller:'mineCtrl'
+		})
+		.when('/shopping',{
+			templateUrl:'app/view/shopping.html',
+			controller:'alertCtrl'
+		})
+}])

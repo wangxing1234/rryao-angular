@@ -1,0 +1,7 @@
+[
+	{"name":"全部订单","icon":"icon-meishi"},
+	{"name":"待付款","icon":"icon-weiniyouxuan"},
+	{"name":"待发货","icon":"icon-dianying1"},
+	{"name":"待收货","icon":"icon-zuixinyouxuan"},
+	{"name":"收货地址管理","icon":"icon-iconfontmjihuachongzhi"}
+]

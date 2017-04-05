@@ -1,0 +1,31 @@
+<div class="good-show">
+  <div class="swiper-container banner" banner-list>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" ng-repeat="banner in datas">
+        <a href="#">
+          <img ng-src="app/images/{{banner.img}}" />
+        </a>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+  <div class="content">
+    <h4 class="good-title">热销推荐</h4>
+    <div class="good-box clearfix">
+      <div class="good-cell" ng-repeat="good in goods">
+        <div class="good-item">
+          <a href="#/details/{{good.id}}" class="good-img-box">
+            <img ng-src="app/images/{{good.img}}" class="good-img"/>
+            <p class="good-name">{{good.name}}</p>
+            <p class="good-present">{{good.present}}</p>
+          </a>
+          <p class="good-foot clearfix">
+            <span class="pull-left">￥{{good.cost}}</span>
+            <a href="#/" class="iconfont icon-s pull-right" ng-click="isAlert($index)"></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+ <div alert-box></div>
+</div> 

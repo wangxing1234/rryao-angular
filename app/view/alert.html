@@ -1,0 +1,35 @@
+<div class="alert-box" ng-hide="alertBox">
+  <form>
+    <div class="mask" ng-click="close()"></div>
+    <ul class="alert-list">
+    	<li class="alert-item alert-1 clearfix">
+    	  <div class="alert-img-box pull-left">
+    	    <img class="alert-img" src="app/images/{{shoppings.img}}" />
+    	  </div>
+    	  <div class="alert-cost-box pull-left">
+    	    <p class="alert-cost">￥{{shoppings.cost}}</p>
+          <p class="alert-way">{{shoppings.way}}</p>
+    	  </div>
+    	  <a class="alert-close" ng-click="close()">X</a>
+    	</li>
+    	<li class="alert-item alert-2">
+    	  <p>销售方式</p>
+    	</li>
+    	<li class="alert-item alert-3">
+    	  <a class="way-select">{{shoppings.way}}</a>
+    	</li>
+    	<li class="alert-item alert-4 clearfix">
+    	  <span class="alert-num-befor">购买数量</span>
+    	  <div class="alert-num-box">
+    	    <span ng-click="isSubtract()" ng-class="{true:'gray',false:'alert-subtract'}[isGray]">-</span><input type="number" ng-model="num" class="alert-num" /><span class="alert-add" ng-click="isNumAdd()"> +</span>
+    	  </div>
+    	</li>
+    	<li class="alert-item alert-5">
+    	  <button class="alert-btn join-color" ng-if="minJoin" ng-click="isAdd()">加入购物袋</button>
+    	  <a class="alert-btn buy-color" ng-if="minBuy" ng-click="isBuy()">立即购买</a>
+    	  <button class="alert-join join-color" ng-if ="maxJoin">加入购物袋</button>
+    	  <a class="alert-buy buy-color" ng-if="maxtBuy">立即购买</a>
+    	</li>
+    </ul>
+  </form>
+</div>

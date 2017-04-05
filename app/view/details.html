@@ -1,0 +1,55 @@
+<div class="details">
+  <div class="details-top">
+    <div class="details-title">
+      <a href="#/" class="getback iconfont icon-back"></a>
+      <h4>{{goods.name}}</h4>
+    </div>
+    <div class="details-tab">
+      <div class="tab-item"  ng-class="{'active':current == 1}" ng-click="setCurrent(1)">
+        <p>图文详情</p>
+      </div>
+      <div class="tab-item" ng-class="{'active':current == 2}" ng-click="setCurrent(2)">
+        <p>规格参数</p>
+      </div>
+      <div class="tab-item" ng-class="{'active':current == 3}" ng-click="setCurrent(3)">
+        <p>包装售后</p>
+      </div>
+    </div>
+  </div>
+  <div class="details-content">
+    <div ng-if="current ==1">
+      <div class="swiper-container banner-details" banner-list>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" ng-repeat="banner in goods.banner">
+              <img ng-src="app/images/{{banner}}" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="message-part">
+        <p class="details-present">{{goods.present}}</p>
+        <p class="details-cost active">￥{{goods.cost}}</p>
+      </div>
+      <div class="details-way">
+        <p>已选:{{goods.way}}</p>
+      </div>
+    </div>
+    <div ng-if="current ==2">
+      <div class="param-pack">
+        <p>产品规格:{{goods.param.norms}}</p>
+        <p>产地:{{goods.param.region}}</p>
+        <p>型号:{{goods.param.type}}</p>
+        <p>颜色:{{goods.param.color}}</p>
+      </div>
+    </div>
+    <div ng-if="current ==3">
+      <div class="param-pack">
+        <p>非邮寄地区:{{goods.pack.nomail}}</p>
+        <p>是否包邮:{{goods.pack.mail}}</p>
+      </div>
+    </div>
+  </div>
+  <div class="detail-buycell">
+    <a class="shopping-bag"><p class="iconfont icon-s"></p>购物袋</a><button class="alert-btn join-color" ng-click="isAdd()">加入购物袋</button><button class="alert-btn buy-color">立即购买</button>
+  </div>
+</div>

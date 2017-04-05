@@ -1,0 +1,14 @@
+<div>
+  <div class="search">
+    <input type="text" class="search-text" placeholder="搜索" />
+    <i class="search-icon iconfont icon-chazhao"></i>
+  </div>
+  <ul class="classify-list clearfix">
+  	<li class="classify-item" ng-repeat="class in datas">
+  	  <a href="#/" class="classify-box">
+  	    <i class="classify-icon iconfont {{class.icon}}"></i>
+        <p>{{ class.name}}</p>
+  	  </a>
+  	</li>
+  </ul>
+</div>

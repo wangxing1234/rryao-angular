@@ -1,0 +1,11 @@
+[
+	{"name":"美食","icon":"icon-meishi"},
+	{"name":"优选","icon":"icon-weiniyouxuan"},
+	{"name":"电影票","icon":"icon-dianying1"},
+	{"name":"潮流优品","icon":"icon-zuixinyouxuan"},
+	{"name":"充值卡","icon":"icon-iconfontmjihuachongzhi"},
+	{"name":"手机平板","icon":"icon-pingban"},
+	{"name":"生活用品","icon":"icon-shenghuo"},
+	{"name":"美妆","icon":"icon-meizhuangyongpin"},
+	{"name":"其他商品","icon":"icon-s"}
+]

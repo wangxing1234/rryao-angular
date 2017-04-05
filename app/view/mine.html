@@ -1,0 +1,18 @@
+<div>
+  <div class="wechat-icon clearfix">
+    <div class="wechat-icon-left pull-left">
+      <img src="../images/good4.jpg" />
+    </div>
+    <div class="wechat-icon-right pull-left">
+      <h4>德玛西亚</h4>
+    </div>
+  </div>
+  <ul class="classify-list clearfix">
+    <li class="classify-item" ng-repeat="myClass in datas">
+      <a href="#/" class="classify-box">
+        <i class="classify-icon iconfont {{myClass.icon}}"></i>
+        <p>{{myClass.name}}</p>
+      </a>
+    </li>
+  </ul>
+</div>
